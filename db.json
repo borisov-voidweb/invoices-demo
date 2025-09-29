@@ -1,0 +1,61 @@
+{
+  "invoices": [
+    {
+      "id": 1,
+      "number": "INV-1001",
+      "date": "2025-09-01",
+      "dueDate": "2025-09-15",
+      "customer": {
+        "id": 1,
+        "name": "Acme Corporation",
+        "email": "billing@acme.com",
+        "address": "123 Main St, New York, NY"
+      },
+      "items": [
+        {
+          "id": 1,
+          "description": "Web development services",
+          "quantity": 10,
+          "unitPrice": 50,
+          "total": 500
+        },
+        {
+          "id": 2,
+          "description": "Hosting (1 month)",
+          "quantity": 1,
+          "unitPrice": 100,
+          "total": 100
+        }
+      ],
+      "subtotal": 600,
+      "tax": 60,
+      "total": 660,
+      "status": "unpaid"
+    },
+    {
+      "id": 2,
+      "number": "INV-1002",
+      "date": "2025-09-05",
+      "dueDate": "2025-09-20",
+      "customer": {
+        "id": 2,
+        "name": "Globex Ltd.",
+        "email": "finance@globex.com",
+        "address": "456 Market St, San Francisco, CA"
+      },
+      "items": [
+        {
+          "id": 1,
+          "description": "Consulting services",
+          "quantity": 5,
+          "unitPrice": 120,
+          "total": 600
+        }
+      ],
+      "subtotal": 600,
+      "tax": 48,
+      "total": 648,
+      "status": "paid"
+    }
+  ]
+}
